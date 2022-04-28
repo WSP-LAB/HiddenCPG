@@ -94,7 +94,7 @@ $ python2 hiddencpg.py [SystemCPG] [CPGQuery] [Log name]
 Logs are written to each systemCPG directory. When HiddenCPG finds a bug, it
 records which node is mapped to which node in the log.
 
-### Dataset (System CPG)
+### Dataset
 
 * Crwaler
 
