@@ -125,7 +125,7 @@ To cite our paper:
 @INPROCEEDINGS{wi:www:2022,
     author = {Wi, Seongil and Woo, Sijae and Whang, Joyce Jiyoung and Son, Sooel},
     title = {{HiddenCPG}: Large-Scale Vulnerable Clone Detection Using Subgraph Isomorphism of Code Property Graphs},
-    booktitle = {Proceedings of the ACM Web Conference},
+    booktitle = {Proceedings of the {ACM} Web Conference},
     year = 2022,
     pages = {755--766}
 }
