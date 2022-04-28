@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SRCDIR=$(dirname $0)/src
+
+if [ -z "$PHP7" ]; then
+    PHP7=/usr/bin/php
+fi
+
+$PHP7 $SRCDIR/Parser.php "$@"

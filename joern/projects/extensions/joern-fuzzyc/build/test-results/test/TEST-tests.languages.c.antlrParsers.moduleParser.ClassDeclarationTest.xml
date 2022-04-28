@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.004">
+  <properties/>
+  <testcase name="testSimpleStructDef" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.001"/>
+  <testcase name="testFunctionPrototype" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.001"/>
+  <testcase name="testStructureInitSimple" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.0"/>
+  <testcase name="testStructureInitArray" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.001"/>
+  <testcase name="testAnonymousStructDef" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.0"/>
+  <testcase name="testClassContentExtraction" classname="tests.languages.c.antlrParsers.moduleParser.ClassDeclarationTest" time="0.001"/>
+  <system-out><![CDATA[(simple_decl (var_decl (class_def struct (class_name (identifier foo)) { int x ; }) ;))
+(simple_decl (var_decl (type_name (base_type int)) (init_declarator_list (init_declarator (declarator (identifier foo) (type_suffix (param_type_list ( (param_type (param_decl_specifiers (type_name (base_type int x))) param_type_id) ))))) ;)))
+(simple_decl (var_decl (class_def struct (class_name (identifier foo)) { int x ; }) (init_declarator_list (init_declarator (declarator (identifier y))) ;)))
+(simple_decl (var_decl (class_def struct (class_name (identifier archive_contents)) { const char * f ; struct contents * c ; }) (init_declarator_list (init_declarator (declarator (identifier files) (type_suffix [ constant_expr_w_ ])) = (assign_expr_w_ { (assign_expr_w__l2 { (assign_expr_w__l2 (assign_water_l2 "sparse") (assign_water_l2 ,) (assign_water_l2 archive_contents_sparse)) } (assign_water_l2 ,) { (assign_expr_w__l2 (assign_water_l2 "sparse2") (assign_water_l2 ,) (assign_water_l2 archive_contents_sparse2)) }) })) ;)))
+]]></system-out>
+  <system-err><![CDATA[line 1:18 extraneous input ';' expecting {<EOF>, '&', '*', '(', 'public', 'private', 'protected', ALPHA_NUMERIC}
+]]></system-err>
+</testsuite>

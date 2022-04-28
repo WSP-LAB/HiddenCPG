@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.parseTreeToAST.ExpressionParsingTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.017">
+  <properties/>
+  <testcase name="testMostBasicLocalVar" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.0"/>
+  <testcase name="testExclusiveOrExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="ShiftExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="testAndExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="funCall" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="AdditiveExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="EqualityExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="testBasicAssignmentChain" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.0"/>
+  <testcase name="CastExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="RelationalExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="testConditionalExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="testMostBasicAssignment" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="testInclusiveOrExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.0"/>
+  <testcase name="testOrExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="MultiplicativeExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <testcase name="testBitAndExpr" classname="tests.languages.c.parseTreeToAST.ExpressionParsingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

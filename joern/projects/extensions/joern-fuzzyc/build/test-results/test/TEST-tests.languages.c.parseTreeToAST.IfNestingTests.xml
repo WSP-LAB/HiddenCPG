@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.parseTreeToAST.IfNestingTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.017">
+  <properties/>
+  <testcase name="nestedIfBlocksNoCompound" classname="tests.languages.c.parseTreeToAST.IfNestingTests" time="0.002"/>
+  <testcase name="ifBlockNoCompound" classname="tests.languages.c.parseTreeToAST.IfNestingTests" time="0.001"/>
+  <testcase name="ifElseChain" classname="tests.languages.c.parseTreeToAST.IfNestingTests" time="0.004"/>
+  <testcase name="ifElse" classname="tests.languages.c.parseTreeToAST.IfNestingTests" time="0.005"/>
+  <testcase name="conditionString" classname="tests.languages.c.parseTreeToAST.IfNestingTests" time="0.002"/>
+  <testcase name="ifInElse" classname="tests.languages.c.parseTreeToAST.IfNestingTests" time="0.002"/>
+  <testcase name="ifBlockCompound" classname="tests.languages.c.parseTreeToAST.IfNestingTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

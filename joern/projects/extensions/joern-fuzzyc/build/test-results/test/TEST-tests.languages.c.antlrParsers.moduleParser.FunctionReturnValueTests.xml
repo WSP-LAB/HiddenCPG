@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.antlrParsers.moduleParser.FunctionReturnValueTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.001">
+  <properties/>
+  <testcase name="testFunction_defReturnValue" classname="tests.languages.c.antlrParsers.moduleParser.FunctionReturnValueTests" time="0.0"/>
+  <testcase name="testFunction_defPtrReturnValue" classname="tests.languages.c.antlrParsers.moduleParser.FunctionReturnValueTests" time="0.0"/>
+  <testcase name="testFunction_defStaticUnsigned" classname="tests.languages.c.antlrParsers.moduleParser.FunctionReturnValueTests" time="0.001"/>
+  <testcase name="testFunction_defNoReturnValue" classname="tests.languages.c.antlrParsers.moduleParser.FunctionReturnValueTests" time="0.0"/>
+  <system-out><![CDATA[(function_def (return_type (type_name (base_type int))) (function_name (identifier main)) (function_param_list ( )) (compound_statement { }))
+(function_def (return_type (type_name (base_type int)) (ptr_operator *)) (function_name (identifier foo)) (function_param_list ( )) (compound_statement { }))
+(function_def (return_type (function_decl_specifiers static) (type_name unsigned)) (function_name (identifier my_atoi)) (function_param_list ( (parameter_decl_clause (parameter_decl (param_decl_specifiers (type_name const (base_type char))) (parameter_id (ptrs (ptr_operator *)) (parameter_name (identifier p))))) )) (compound_statement { }))
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

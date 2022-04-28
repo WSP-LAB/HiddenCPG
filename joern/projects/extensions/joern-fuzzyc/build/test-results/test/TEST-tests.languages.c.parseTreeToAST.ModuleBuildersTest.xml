@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.parseTreeToAST.ModuleBuildersTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.061">
+  <properties/>
+  <testcase name="testNestedStructs" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.014"/>
+  <testcase name="testEmptyParamList" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.001"/>
+  <testcase name="testParamName" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.008"/>
+  <testcase name="testParamType" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.005"/>
+  <testcase name="testStructFunctionPointer" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.012"/>
+  <testcase name="testUnnamedStruct" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.002"/>
+  <testcase name="testDecl" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.001"/>
+  <testcase name="testClassDefBeforeContent" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.001"/>
+  <testcase name="testFunctionInClass" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.002"/>
+  <testcase name="testStructName" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.0"/>
+  <testcase name="testDeclListAfterClass" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.001"/>
+  <testcase name="testSimpleParamList" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.0"/>
+  <testcase name="testStructContent" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.001"/>
+  <testcase name="testFuncSignature" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.002"/>
+  <testcase name="testParamGetCodeStr" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.001"/>
+  <testcase name="testFunctionPtrParam" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.004"/>
+  <testcase name="testEmptyParamListLocation" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.001"/>
+  <testcase name="testParamListGetCodeStr" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.0"/>
+  <testcase name="testFuncName" classname="tests.languages.c.parseTreeToAST.ModuleBuildersTest" time="0.0"/>
+  <system-out><![CDATA[char *
+y
+4
+foo (int x , char * * ptr)
+char * myParam
+foo (void ( * ptr ) ( char * ))
+char * myParam , myType x
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

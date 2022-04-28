@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.parseTreeToAST.PreprocessorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.003">
+  <properties/>
+  <testcase name="testPreElseSkipping" classname="tests.languages.c.parseTreeToAST.PreprocessorTests" time="0.002"/>
+  <testcase name="NestedIfndefs" classname="tests.languages.c.parseTreeToAST.PreprocessorTests" time="0.001"/>
+  <system-out><![CDATA[1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

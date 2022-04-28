@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.parseTreeToAST.CodeNestingTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.028">
+  <properties/>
+  <testcase name="testCallWithTwoArguments" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.002"/>
+  <testcase name="testFor" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.003"/>
+  <testcase name="testCall" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.006"/>
+  <testcase name="compoundWithoutBlockStart" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.002"/>
+  <testcase name="complexIfElseNesting" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.002"/>
+  <testcase name="testAssignment" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.002"/>
+  <testcase name="testDeclRightAfterStruct" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.001"/>
+  <testcase name="emptyContent" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.0"/>
+  <testcase name="testVarDeclName" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.001"/>
+  <testcase name="testVarDeclType" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.001"/>
+  <testcase name="testDeclInFor" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.002"/>
+  <testcase name="assignmentInCondition" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.001"/>
+  <testcase name="testLineNumbers" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.001"/>
+  <testcase name="whileInElse" classname="tests.languages.c.parseTreeToAST.CodeNestingTest" time="0.003"/>
+  <system-out><![CDATA[i < 10
+int
+4
+foo = bar
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.cfgCreation.OtherTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.015">
+  <properties/>
+  <testcase name="testForNumberOfBlocks" classname="tests.languages.c.cfgCreation.OtherTests" time="0.002"/>
+  <testcase name="testSwitchWithDefaultLabelNumberOfEdges" classname="tests.languages.c.cfgCreation.OtherTests" time="0.002"/>
+  <testcase name="testSingleCallBlockNumber" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <testcase name="testGoto" classname="tests.languages.c.cfgCreation.OtherTests" time="0.0"/>
+  <testcase name="testWhileNumberOfBlocks" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <testcase name="testDoNumberOfBlocks" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <testcase name="testSwitchNumberOfEdges" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <testcase name="testDoEmptyBody" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <testcase name="testReturnExitBlock" classname="tests.languages.c.cfgCreation.OtherTests" time="0.0"/>
+  <testcase name="testReturnOneExitBlock" classname="tests.languages.c.cfgCreation.OtherTests" time="0.002"/>
+  <testcase name="testLinkBetweenBlocks" classname="tests.languages.c.cfgCreation.OtherTests" time="0.0"/>
+  <testcase name="testSwitchWithBreakNumberOfEdges" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <testcase name="testTwoInstructions" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <testcase name="testEmptyFor" classname="tests.languages.c.cfgCreation.OtherTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

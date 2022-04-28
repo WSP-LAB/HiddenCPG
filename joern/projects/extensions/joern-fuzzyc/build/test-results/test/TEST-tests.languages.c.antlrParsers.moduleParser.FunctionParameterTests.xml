@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.languages.c.antlrParsers.moduleParser.FunctionParameterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:32" hostname="GPU-Windu" time="0.004">
+  <properties/>
+  <testcase name="testParamVoidPtr" classname="tests.languages.c.antlrParsers.moduleParser.FunctionParameterTests" time="0.002"/>
+  <testcase name="testParamConstVoidPtr" classname="tests.languages.c.antlrParsers.moduleParser.FunctionParameterTests" time="0.0"/>
+  <testcase name="testVoidParamList" classname="tests.languages.c.antlrParsers.moduleParser.FunctionParameterTests" time="0.001"/>
+  <testcase name="testFunctionPtrParam" classname="tests.languages.c.antlrParsers.moduleParser.FunctionParameterTests" time="0.0"/>
+  <testcase name="testLinux__user" classname="tests.languages.c.antlrParsers.moduleParser.FunctionParameterTests" time="0.001"/>
+  <system-out><![CDATA[(function_def (return_type (function_decl_specifiers static) (type_name (base_type int))) (function_name (identifier altgid)) (function_param_list ( (parameter_decl_clause void) )) (compound_statement { }))
+(function_def (return_type (function_decl_specifiers static) (type_name (base_type long))) (function_name (identifier aio_read_events_ring)) (function_param_list ( (parameter_decl_clause (parameter_decl (param_decl_specifiers (type_name struct (base_type kioctx))) (parameter_id (ptrs (ptr_operator *)) (parameter_name (identifier ctx)))) , (parameter_decl (param_decl_specifiers (type_name struct (base_type io_event __user))) (parameter_id (ptrs (ptr_operator *)) (parameter_name (identifier event)))) , (parameter_decl (param_decl_specifiers (type_name (base_type long))) (parameter_id (parameter_name (identifier nr))))) )) (compound_statement { }))
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

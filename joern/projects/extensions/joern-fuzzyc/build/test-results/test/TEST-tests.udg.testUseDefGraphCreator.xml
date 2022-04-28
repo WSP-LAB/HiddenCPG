@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.udg.testUseDefGraphCreator" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:41:31" hostname="GPU-Windu" time="0.128">
+  <properties/>
+  <testcase name="test_condition" classname="tests.udg.testUseDefGraphCreator" time="0.097"/>
+  <testcase name="test_simplified_expression" classname="tests.udg.testUseDefGraphCreator" time="0.018"/>
+  <testcase name="test_def_tainted_call" classname="tests.udg.testUseDefGraphCreator" time="0.003"/>
+  <testcase name="test_plusEquals_asssignment" classname="tests.udg.testUseDefGraphCreator" time="0.003"/>
+  <testcase name="test_struct_field_assign_def" classname="tests.udg.testUseDefGraphCreator" time="0.007"/>
+  <system-out><![CDATA[/home/su3604/joern/projects/extensions/joern-fuzzyc
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,6 @@
+path_example
+__py*
+*.pyc
+venv/
+code/
+cpg/
