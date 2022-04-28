@@ -106,7 +106,7 @@ $ python2 crawler.py [Github token]
 * Cloning dataset
 
 ```
-$ ./clone [Output directory]
+$ python2 clone [Output directory]
 ```
 
 
