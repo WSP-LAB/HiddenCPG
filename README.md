@@ -14,13 +14,13 @@ and execute HiddenCPG, see the followings.
 
 1. Install dependencies
 ```
-# apt-get install pickle
-# apt-get install json
-# apt-get install networkx
-# apt-get install operator
-# apt-get install copy
-# apt-get install signal
-# apt-get install github
+$ pip install pickle
+$ pip install json
+$ pip install networkx
+$ pip install operator
+$ pip install copy
+$ pip install signal
+$ pip install github
 ```
 
 2. Clone HiddenCPG
