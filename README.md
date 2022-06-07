@@ -25,7 +25,7 @@ $ pip install github
 
 2. Clone HiddenCPG
 ```
-$ git clone https://github.com/WSP-LAB/FUSE
+$ git clone https://github.com/WSP-LAB/HiddenCPG.git
 ```
 
 3. Install joern and phpjoern
