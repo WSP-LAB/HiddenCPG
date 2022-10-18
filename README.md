@@ -1,9 +1,9 @@
 # HiddenCPG
 
 HiddenCPG is a vulnerable clone detection system using code property graph
-(CPG) for uncovering various web vulnerabilities HiddenCPG is capable of
+(CPG) for uncovering various web vulnerabilities. HiddenCPG is capable of
 detecting unknown web vulnerabilities that stem from the absence of input
-sanitization and incorrect sanitization.  The details of the testing strategy
+sanitization and incorrect sanitization. The details of the testing strategy
 is in our [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512235),
 "HiddenCPG: Large-Scale Vulnerable Clone Detection Using Subgraph Isomorphism
 of Code Property Graphs", which appeared in WWW 2022. To see how to configure
